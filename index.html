@@ -264,9 +264,10 @@
 
   /* ---------- Follow / Footer ---------- */
   .follow-grid{
-    display:grid; grid-template-columns:repeat(3,1fr); gap:16px;
+    display:grid; grid-template-columns:repeat(4,1fr); gap:16px;
   }
-  @media (max-width:760px){ .follow-grid{ grid-template-columns:1fr; } }
+  @media (max-width:900px){ .follow-grid{ grid-template-columns:repeat(2,1fr); } }
+  @media (max-width:480px){ .follow-grid{ grid-template-columns:1fr; } }
   .follow-card{
     border:1px solid var(--line); border-radius:var(--radius); padding:22px;
     text-decoration:none; color:var(--paper);
@@ -399,7 +400,7 @@
         <div class="book">
           <div class="cover cover-soon">
             <span class="soon-badge" style="font-style:normal;font-weight:600;font-size:1.7rem;color:var(--paper);">sweat</span>
-            <span class="soon-badge" style="font-size:0.95rem;margin-top:8px;">Coming Christmas 2026</span>
+            <span class="soon-badge" style="font-size:0.95rem;margin-top:8px;">Coming soon</span>
             <span class="book-num">Book 6</span>
           </div>
           <div class="book-meta">MMF &middot; Sweat</div>
@@ -440,7 +441,7 @@
           <div class="d-label"><strong>Stir</strong> &middot; Book 5</div>
         </div>
         <div class="d-card">
-          <div class="d-cover d-soon"><span class="t">sweat</span><span class="s">Christmas 2026</span></div>
+          <div class="d-cover d-soon"><span class="t">sweat</span><span class="s">Coming soon</span></div>
           <div class="d-label"><strong>Sweat</strong> &middot; Book 6</div>
         </div>
       </div>
@@ -461,7 +462,7 @@
         <p>Her Sizzle TV series follows a loosely connected group of friends, coworkers, and exes through workplace tension, reality-TV chaos, and every kind of slow burn, always landing on a guaranteed happy ending.</p>
         <div class="facts">
           <div class="fact"><div class="label">Genre</div><div class="value">MMF ménage romance</div></div>
-          <div class="fact"><div class="label">Series</div><div class="value">Sizzle TV, Books 1&ndash;5 (Book 6 this Christmas)</div></div>
+          <div class="fact"><div class="label">Series</div><div class="value">Sizzle TV, Books 1&ndash;5 (Book 6 coming soon)</div></div>
           <div class="fact"><div class="label">Fuel</div><div class="value">Coffee, always</div></div>
         </div>
       </div>
@@ -509,6 +510,10 @@
         <a class="follow-card" href="https://www.bookbub.com/authors/whitley-green" target="_blank" rel="noopener">
           <div class="fname">BookBub</div>
           <div class="fdesc">Follow for deal alerts</div>
+        </a>
+        <a class="follow-card" href="https://www.goodreads.com/author/show/18701717.Whitley_Green" target="_blank" rel="noopener">
+          <div class="fname">Goodreads</div>
+          <div class="fdesc">Follow &amp; add to your shelf</div>
         </a>
       </div>
     </div>
